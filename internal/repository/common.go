@@ -1,11 +1,11 @@
 package repository
 
 import (
+	"goBackendExample/internal/model"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 	"log"
-	"goBackendExample/internal/model"
 )
 
 var db *gorm.DB
