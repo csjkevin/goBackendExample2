@@ -2,9 +2,9 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"log"
 	"goBackendExample/internal/model"
 	"goBackendExample/internal/service"
+	"log"
 	"net/http"
 	"strconv"
 )
